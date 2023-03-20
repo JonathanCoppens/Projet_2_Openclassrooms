@@ -288,7 +288,7 @@
         font-size: smaller;
     }
     .titre_activite {
-        margin-top: 60px;
+    margin-left: 18px;
     }
     /*articles des activité a marseille*/
     .port,.fort,.parc,.eglise {
@@ -307,6 +307,12 @@
     .activite_a_marseille {
         display: flex;
         justify-content: space-between;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .conteneur_activites {
+        display: flex;
+        justify-content: space-around;
     }
     footer {    
         margin-top: 61px;    
@@ -332,7 +338,9 @@
     /*}*/
     /*Media smartphones*/
     @media screen and (min-width: 320px) and (max-width:768px) {
-    
+    body {
+        margin: 0;
+    }
     header {
         flex-direction: column;
         width: 100%;
@@ -365,7 +373,7 @@
         justify-content: center;
     }
     .hide {
-        visibility: collapse;
+        display: none;
     }
     .search_icon {
         display: flex;
@@ -406,10 +414,12 @@
         background-color: white;
         height: auto;
     }
-
+    .left {
+        margin-bottom: 0;
+    }
     .mars {
         margin-left: 0;
-        padding-left: 0;
+        padding-left: 15px;
     }
     .art1,.art2,.art3,.art4,.art5,.art6 {
         width: 100%;
@@ -424,6 +434,10 @@
     }
     .titre_activite {
         display: flex;
+    }
+    .conteneur_activites {
+        flex-direction: column;
+        gap: 20px;
     }
     .act1,.act2,.act3,.act4 {
         
