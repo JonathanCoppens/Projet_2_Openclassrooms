@@ -25,12 +25,12 @@
                 <!--premier lien "hébergement"-->
                 <li class="hebergement">
                     <!--class qui spécifie la présence d'un ligne au dessus du lien dans la version desktop-->
-                    <div class="topline"><a href="#Hebergements à Marseille" class="hebergements_a_marseille">Hébergements</a></div>
+                    <div class="topline"><a href="#Hebergements_a_Marseille" class="hebergements_a_marseille">Hébergements</a></div>
                 </li>
                 <!--second lien "activités"-->
                 <li class="activites">
                     <!--class qui spécifie la présence d'un ligne au dessus du lien dans la version desktop-->
-                    <div class="topline"><a href="#Activites à Marseille" class="activites_a_marseille">Activités</a></div>
+                    <div class="topline"><a href="#Activites_a_Marseille" class="activites_a_marseille">Activités</a></div>
                 </li>
             </ul>     
         </nav>      
@@ -46,31 +46,32 @@
                 <!--barre de recherche-->
                     <form class="searchbar"><input id="searchbar" type="search" value="Marseille, France">
                 <!--bouton "rechercher"-->        
-                    <button type="button"><div class="search"><div class="hide">Rechercher</div><img class="search_icon" src="ImagesBooki/Images_Booki/icones/search.png" alt="icone de recherche"></div></button>
+                    <button type="button"><span class="search"><span class="hide">Rechercher</span><img class="search_icon" src="ImagesBooki/Images_Booki/icones/search.png" alt="icone de recherche"></span></button>
                     </form>
             </div>
         </div>                          
         <section class="conteneur_filtres">
-        <!--class pour agir sur l'entièreté de la barre de recherche-->        
-        <ul class="FilterBar">
             <!--class pour agir pour le titre-->
             <h2 class="filtres_h2">Filtres</h2>
+        <!--class pour agir sur l'entièreté de la barre de recherche-->        
+        <div class="FilterBar">
+            
             <div class="criteres">
             <!--diffrérents filtres de recherche-->                                     <!--icone billet-->
-                <a href="#" class="light_blue"><li class="filter1"><div class="ifiltre"><i class="icon fa-solid fa-money-bill-wave"></i></div><div class="font"> Economique</div></li></a>
+                <a href="#" class="light_blue"><div class="filter1"><div class="ifiltre"><i class="icon fa-solid fa-money-bill-wave"></i></div><div class="font"> Economique</div></div></a>
                                                                                         <!--icone personne-->
-                <a href="#" class="light_blue"><li class="filter2"><div class="ifiltre"><i class="icon fa-solid fa-person"></i></div><div class="font"> Familial</div></li></a>
+                <a href="#" class="light_blue"><div class="filter2"><div class="ifiltre"><i class="icon fa-solid fa-person"></i></div><div class="font"> Familial</div></div></a>
                                                                                         <!--icone coeur-->
-                <a href="#" class="light_blue"><li class="filter3"><div class="ifiltre"><i class="icon fa-sharp fa-solid fa-heart"></i></div><div class="font"> Romantique</div></li></a>
+                <a href="#" class="light_blue"><div class="filter3"><div class="ifiltre"><i class="icon fa-sharp fa-solid fa-heart"></i></div><div class="font"> Romantique</div></div></a>
                                                                                         <!--icone chien-->
-                <a href="#" class="light_blue"><li class="filter4"><div class="ifiltre"><i class="icon fa-solid fa-dog"></i></div><div class="font"> Animaux autorisés</div></li></a>
+                <a href="#" class="light_blue"><div class="filter4"><div class="ifiltre"><i class="icon fa-solid fa-dog"></i></div><div class="font"> Animaux autorisés</div></div></a>
             </div>    
-        </ul>
+        </div>
             <!--icone "info"-->
             <div class="info_logement"><img class="icon_info" src="ImagesBooki/Images_Booki/icones/info.png" alt="icone info"> Plus de 500 logements sont disponibles dans cette ville</div>
         </section>    
         <!--Cadre gris reprenant les hébergements à Marseille et las plus populaires-->
-        <section class="g_d" id="Hebergements à Marseille">
+        <section class="g_d" id="Hebergements_a_Marseille">
             <!--section hébergement à Marseille-->
             <section class="section_gauche">
                 <h1 class="mars" >Hébergements à Marseille</h1>            
@@ -83,7 +84,7 @@
                     <!--text sous l'image-->
                     <div class="txt1">
                         <h3>Auberge La Canebière</h3>
-                        Nuit à partir de 25€</br>
+                        Nuit à partir de 25€<br/>
                         <div class="star">
                     <!--icone "étoiles bleues"-->    
                         <i class="fa-solid fa-star"></i>
@@ -99,11 +100,11 @@
                 <article class="art2">
                     <a href="#port">
                     <!--image "hotel du port"-->    
-                    <img class="img2" src="ImagesBooki/Images_Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+                    <img class="img2" src="ImagesBooki/Images_Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="port">
                     <!--text sous l'image-->
                     <div class="txt2">
                         <h3>Hôtel du port</h3>
-                        Nuit à partir de 52€</br>
+                        Nuit à partir de 52€<br/>
                         <div class="star">
                     <!--icones "étoiles bleues" -->    
                         <i class="fa-solid fa-star"></i>
@@ -117,13 +118,13 @@
                     </a>    
                 </article>         
                 <article class="art3">
-                    <a href="# mouettes">
+                    <a href="#mouettes">
                         <!--image "hotel les mouettes"-->
-                    <img class="img3" src="ImagesBooki/Images_Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg">
+                    <img class="img3" src="ImagesBooki/Images_Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hotel les mouettes">
                     <!--text sous l'image-->
                     <div class="txt3">
                         <h3>Hôtel Les mouettes</h3>
-                        Nuit à partir de 76€</br>
+                        Nuit à partir de 76€<br/>
                         <div class="star">
                     <!--icones "étoiles bleues"-->    
                         <i class="fa-solid fa-star"></i>
@@ -139,11 +140,11 @@
                 <article class="art4">
                     <a href="#mer">
                     <!--image "hotel de la mer"-->    
-                    <img class="img4" src="ImagesBooki/Images_Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+                    <img class="img4" src="ImagesBooki/Images_Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel de la mer">
                     <!--text sous l'image-->
                     <div class="txt4">
                         <h3>Hôtel de la mer</h3>
-                        Nuit à partir de 46€</br>
+                        Nuit à partir de 46€<br/>
                         <div class="star">
                         <!--icones "étoiles bleues"-->
                         <i class="fa-solid fa-star"></i>
@@ -159,11 +160,11 @@
                 <article class="art5">
                     <a href="#le_panier">
                     <!--image "hauberge le panier"-->    
-                    <img class="img5" src="ImagesBooki/Images_Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
+                    <img class="img5" src="ImagesBooki/Images_Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="auberge le panier">
                     <!--text sous l'image-->
                     <div class="txt5">
                         <h3>Auberge Le Panier</h3>
-                        Nuit à partir de 23€</br>
+                        Nuit à partir de 23€<br/>
                         <div class="star">
                         <!--icone étoiles bleues-->
                         <i class="fa-solid fa-star"></i>
@@ -179,11 +180,11 @@
                 <article class="art6">
                     <a href="#amina">
                     <!--image "hotel chez Amina"-->    
-                    <img class="img6" src="ImagesBooki/Images_Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+                    <img class="img6" src="ImagesBooki/Images_Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hotel chez Amina">
                     <!--text sous l'image-->
                     <div class="txt6">
                         <h3>Hôtel Chez Amina</h3>
-                        Nuit à partir de 96€</br>
+                        Nuit à partir de 96€<br/>
                         <div class="star">
                         <!--icone "étoiles bleues"-->
                         <i class="fa-solid fa-star"></i>
@@ -203,16 +204,16 @@
             </section>
             <!--Cadre gris de droite-->
             <aside class="section_droite">
-                <h1 class="pop">Les plus populaires <img class="vector" src="Images+Booki/Images Booki/icones/vector.png"></h1>
+                <h1 class="pop">Les plus populaires <img class="vector" src="ImagesBooki/Images_Booki/icones/vector.png" alt="vecteur croissance"></h1>
             <div class="right">
                 <a href="#soleil">
                 <article class="art7">
                     <!--image "hotel le soleil du matin"-->                    
-                    <img class="img7" src="Images+Booki/Images Booki/hebergements/Resized/emile-guillemot-Bj_rcSC5XfE-unsp.jpg">
+                    <img class="img7" src="ImagesBooki/Images_Booki/hebergements/Resized/emile-guillemot-Bj_rcSC5XfE-unsp.jpg" alt="hotel le soleil du matin">
                     <!--text sous l'image-->
                     <div class="txt7">
                         <h3>Hôtel Le Soleil du matin</h3>
-                        Nuit à patrir de 128€</br>
+                        Nuit à patrir de 128€<br/>
                         <div class="rightstar">
                             <!--icone "étoiles bleues"-->
                             <i class="fa-solid fa-star"></i>
@@ -228,11 +229,11 @@
                     <a href="#au_coeur_de_l_eau">
                 <article class="art8">
                     <!--image "chambres dhôtes au coeur de l'eau"-->                    
-                    <img class="img8" src="Images+Booki/Images Booki/hebergements/Resized/aw-creative-VGs8z60yT2c-unsplash.jpg">
+                    <img class="img8" src="ImagesBooki/Images_Booki/hebergements/Resized/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="chambres d'h^tes au coeur de l'eau">
                     <!--text sous l'image-->
                     <div class="txt8">
                         <h3>Chambre d'hôtes Au coeur de l'eau</h3>
-                        Nuit à patrir de 71€</br>
+                        Nuit à patrir de 71€<br/>
                         <div class="rightstar">
                             <!--icones "étoiles bleues"-->
                             <i class="fa-solid fa-star"></i>
@@ -248,11 +249,11 @@
                     <a href="#bleu_blanc">
                 <article class="art9">
                     <!--image "hotel blanc et bleu"-->                    
-                    <img class="img9" src="Images+Booki/Images Booki/hebergements/Resized/febrian-zakaria-sjvU0THccQA-unsp.jpg">
+                    <img class="img9" src="ImagesBooki/Images_Booki/hebergements/Resized/febrian-zakaria-sjvU0THccQA-unsp.jpg" alt="hotel blanc et bleu">
                     <!--text sous l'image-->
                     <div class="txt9">
                         <h3>Hôtel Bleu et Blanc</h3>
-                        Nuit à patrir de 68€</br>
+                        Nuit à patrir de 68€<br/>
                         <div class="rightstar">
                             <!--icone "étoiles bleues"-->
                             <i class="fa-solid fa-star"></i>
@@ -271,31 +272,31 @@
         <!--Activités images avant footer-->
             
         <section class="activite_a_marseille" >                        
-            <div class="titre_activite" id="Activites à Marseille">
+            <div class="titre_activite" id="Activites_a_Marseille">
                 <h1>Activités à Marseille</h1>
             </div>
             <div class="conteneur_activites">    
                 <article class="port">
                     <div>
-                        <img class="act1" src="Images+Booki/Images Booki/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                        <img class="act1" src="ImagesBooki/Images_Booki/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux port">
                         <h3 class="txt_activite">Vieux-Port</h3>
                     </div>
                 </article>
                 <article class="fort">
                     <div>
-                        <img class="act2" src="Images+Booki/Images Booki/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                        <img class="act2" src="ImagesBooki/Images_Booki/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort de pomègues">
                         <h3 class="txt_activite">Fort de Pomègues</h3>
                     </div>
                 </article>
                 <article class="parc">
                     <div>
-                        <img class="act3" src="Images+Booki/Images Booki/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
+                        <img class="act3" src="ImagesBooki/Images_Booki/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc national des calanques">
                         <h3 class="txt_activite">Parc national des Calanques</h3>
                     </div>
                 </article>
                 <article class="eglise">
                     <div>
-                        <img class="act4" src="Images+Booki/Images Booki/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+                        <img class="act4" src="ImagesBooki/Images_Booki/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="notre dame de la garde">
                         <h3 class="txt_activite">Notre-Dame-De-La-Garde</h3>
                     </div>
                 </article>
@@ -328,7 +329,9 @@
                 <li>               
                     <a href="#" class="foot"><p>Charte qualité</p></a>
                 </li>
-                <a href="#" class="foot"><p>Proposer votre hôtel</p></a>
+                <li>
+                    <a href="#" class="foot"><p>Proposer votre hôtel</p></a>
+                </li>
             </ul>
             <ul class="foot3">
                 <li>

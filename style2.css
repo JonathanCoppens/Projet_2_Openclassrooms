@@ -390,7 +390,7 @@
         margin-left: 32px;
         padding: 0;
     }
-    ul.FilterBar {
+    div.FilterBar {
         display: unset;
     }
     .filtres_h2 {
