@@ -1,10 +1,8 @@
 /*Média desktop*/
-/*@media screen and (min-width: 1024px) and (max-width: 1440px){*/ 
-    
     body {
         font-family: 'Raleway', sans-serif;
-        
-            
+        margin: 0 35px 0 35px;
+        max-width: 1440px;    
     }
     /*entête de page*/
     header {
@@ -68,7 +66,7 @@
     /*conteneur barre de recherche*/
     .rechercher {
         display: flex;
-        width: 31%;
+        width: 100%;
         height: 50px;
         margin: 25px 0 25px 0;
     }
@@ -86,7 +84,7 @@
     }
     /*bouton rechercher*/
     button {
-        width: 30%;
+        width: 140px;
         height: 98%;
         border-radius: 0px 15px 15px 0px;
         background-color: #0065FC;
@@ -105,7 +103,7 @@
         border-radius: 15px 0px 0px 15px;
         height: 100%;
         align-items: center;
-        width: 13%;
+        width: 60px;
         justify-content: center;
         background-color: #F2F2F2;
     }
@@ -375,7 +373,6 @@
         padding: 15px 0px 0px 0px;
         font-size: larger;
     }
-    /*}*/
     /*Media smartphones*/
     @media screen and (min-width: 320px) and (max-width:767px) {
     body {
@@ -530,9 +527,6 @@
     body {
         margin: 0 30px 0 30px;
     }
-    .hebergement:hover,.activites:hover {
-        border-top: none;
-    }
     a.hebergements_a_marseille:hover,a.activites_a_marseille:hover {
         color: #000;
     }
@@ -541,7 +535,7 @@
         display: flex;
     }
     .rechercher {
-        width: 50%;
+        width: 100%;
     }
     button {
         font-size: large;
@@ -616,4 +610,3 @@
         align-items: center;
     }
     }
-    
