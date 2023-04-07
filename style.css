@@ -75,7 +75,7 @@
         height: 100%;
         padding-right: 75px;
         border: solid #F2F2F2;
-        margin-right: -60px;
+        margin-right: 0px;
         font-size: 20px;
     }
     /*icone loupe*/
@@ -92,6 +92,7 @@
         border-style: none;
         font-size: 19px;
         padding: 1px 0 0 0;
+        margin-left: -5px;
     }
     /*zone de text "Marseille, France"*/
     .searchbar {
