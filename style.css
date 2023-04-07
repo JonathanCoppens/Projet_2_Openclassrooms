@@ -251,6 +251,7 @@
         margin-bottom: 18.72px;
         font-size: 22px;
     }
+    /*paramétrages section de droite*/
     .section_droite {
         padding-left: 20px;
         padding-right: 20px;
@@ -277,7 +278,8 @@
     }
     .img_d {
         border-radius:20px 0px 0px 20px ;
-        
+        width: 150px;
+        object-fit: cover;
     }
     .art_d {
         border-radius: 20px;
@@ -296,6 +298,7 @@
         font-size: smaller;
         color: black;
     }
+    /*positionnement des étoiles d'évaliation de la section de drpoite*/
     .rightstar {
         position: absolute;
         bottom: 0%;
@@ -521,10 +524,11 @@
         margin: 0 18px;
         flex-direction: column;
     }
-    .foot1,.foot2,.foot3 {
+    .feet {
         padding: 0;
     }
     }
+    /*media tablettes*/
     @media screen and (min-width:768px) and (max-width:1023px){
     body {
         margin: 0 30px 0 30px;
