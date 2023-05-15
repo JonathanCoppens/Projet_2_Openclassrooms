@@ -38,7 +38,7 @@
     }
     /*bordure supérieure en bleu lors du survol*/
     .hebergement:hover, .activites:hover {
-        border-top: solid #0065FC;
+        border-top: solid 4px #0065FC;
         border-radius: unset;
     }
     /*coloration du lien et de la bordure lors du survol, sans distinction*/   
@@ -439,7 +439,7 @@
     }
     button {
         width: 50px;
-        margin-left: 32px;
+        margin-left: -32px;
         padding: 0;
     }
     /*conteneur des différents filtres*/
@@ -459,8 +459,6 @@
     .criteres {
         flex-wrap: wrap;
         gap: 10px;
-        margin-bottom: inherit;
-        justify-content: space-between;
     }
     /*conteneurs de chaques filtres séparés*/
     .filter {
