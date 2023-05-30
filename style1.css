@@ -18,8 +18,14 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
+    margin: 25px;
+}
+
+.find {
+    font-size: 22px;
+    font-weight: bolder;
 }
 
 .main-container {
@@ -27,6 +33,7 @@ body {
     max-width: 1440px;
     padding: 0 10px;
     box-sizing: border-box;
+    margin: auto;
 }
 
 /*.navigation-booki {
@@ -43,7 +50,7 @@ body {
     height: 75px;
 }
 
-.hebergements-activities  {
+.acomodations-activities  {
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -57,7 +64,7 @@ a {
     color: black;
 }
 
-.header-link-hebergements,
+.header-link-acomodations,
 .header-link-activities {
     display: flex;
     align-items: center;
@@ -65,10 +72,11 @@ a {
     margin-left: 50px;
 }
 
-.header-link-hebergements:hover,
+.header-link-acomodations:hover,
 .header-link-activities:hover {
     border-top: #0065FC solid 2px;
     color: #0065FC;
+    transition: 1s;
 }
 
 .search {
@@ -157,6 +165,7 @@ button {
 
 .filter-choice:hover {
     background-color: #DEEBFF;
+    transition: 1s;
 }
 
 .icon-filter {
@@ -220,12 +229,12 @@ button {
 }
 
 /****** Hebergements And Populaires ***********/
-.hebergements-and-populaires {
+.acomodations-populaires {
     display: flex;
     justify-content: space-between;
 }
 
-.hebergements-and-populaires section {
+.acomodations-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
@@ -233,11 +242,11 @@ button {
 }
 
 /****** Hebergements ***********/
-.hebergements {
+.acomodations {
     width: 65%;
 }
 
-.hebergements-cards {
+.acomodations-cards {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
@@ -366,7 +375,7 @@ button {
         flex-direction: row;
     }
 
-    .hebergements {
+    .acomodations {
         width: 100%;
     }
 
@@ -402,11 +411,11 @@ button {
         flex-direction: column;
     }
 
-    .hebergements-activities {
+    .acomodations-activities {
         border-bottom: solid #F2F2F2;
     }
 
-    .header-link-hebergements {
+    .header-link-acomodations {
         /*margin-left: 30px;*/
         width: 170px;
         margin: 0;
@@ -419,13 +428,13 @@ button {
         justify-content: center;
     }
 
-    .header-link-hebergements:hover,
+    .header-link-acomodations:hover,
     .header-link-activities:hover{
         border-top: none;
         border-bottom: solid;
     }
 
-    .hebergements-and-populaires {
+    .acomodations-populaires {
         flex-direction: column;
     }
     /* ... */
