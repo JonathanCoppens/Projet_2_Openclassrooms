@@ -229,12 +229,12 @@ button {
 }
 
 /****** Hebergements And Populaires ***********/
-.acomodations-populaires {
+.acomodations-popular {
     display: flex;
     justify-content: space-between;
 }
 
-.acomodations-populaires section {
+.acomodations-popular section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
@@ -259,28 +259,28 @@ button {
     font-weight: 700;
 }
 /****** Populaires ***********/
-.populaires {
+.popular {
     width: 32%;
 }
 
-.populaires-title {
+.popular-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.populaires-cards .card {
+.popular-cards .card {
     display: flex;
     margin-top: 33px;
 }
 
-.populaires-cards img {
+.popular-cards img {
     width: 33%;
     height: 136px;
     border-radius: 20px 0 0 20px;
 }
 
-.populaires-cards .card-content {
+.popular-cards .card-content {
     width: 67%;
     padding-left: 15px;
     display: flex;
@@ -293,16 +293,16 @@ button {
     margin: 15px;
 }
 
-.populaires-cards .card-title {
+.popular-cards .card-title {
     margin-top: 0px;
     margin-bottom: 4px;
 }
 
-.populaires-cards .card-subtitle {
+.popular-cards .card-subtitle {
     margin: 0;
 }
 
-.populaires-cards .card-rating {
+.popular-cards .card-rating {
     margin-bottom: 5px;
 }
 
@@ -379,26 +379,26 @@ button {
         width: 100%;
     }
 
-    .populaires {
+    .popular {
         width: 100%;
         margin-top: 50px;
     }
 
-    .populaires-cards {
+    .popular-cards {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .populaires-cards .card {
+    .popular-cards .card {
         width: 30%;
     }
 
-    .populaires-cards .card-title {
+    .popular-cards .card-title {
         font-size: 14px;
     }
 
-    .populaires-cards .card-subtitle {
+    .popular-cards .card-subtitle {
         font-size: 13px;
     }
 }
@@ -434,7 +434,7 @@ button {
         border-bottom: solid;
     }
 
-    .acomodations-populaires {
+    .acomodations-popular {
         flex-direction: column;
     }
     /* ... */
