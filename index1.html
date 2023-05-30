@@ -7,10 +7,10 @@
     <title>Booki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style1.css">
 
 </head>
@@ -18,25 +18,27 @@
 <body>
     <div class="main-container">
         <header>
+
             <nav class="navigation-booki">
                 <h1 class="navigation-booki-title">Booki</h1> 
                 <div class="navigation-booki-header-links">
                         <a href="#"><img src="images/Images_Booki/logo/Booki.png" alt="logo Booki"></a>        
-                    <div class="hebergements-activities">
-                       <a href="#hebergements-in-marseille" class="header-link-hebergements">Hébergements</a>
-                       <a href="#activities-in-marseille" class="header-link-activities">Activités</a>
+                    <div class="acomodations-activities">
+                       <a href="#marseille_acomodations" class="header-link-acomodations">Hébergements</a>
+                       <a href="#marseille_activities" class="header-link-activities">Activités</a>
                     </div>
                 </div>        
             </nav>
+
             <div class="header-searchbar">
-                <h2 class="find">
+                <p class="find">
                     Trouvez votre hébergement pour des vacances de rêves<br>
                     <div class="city-center">En plein centre-ville ou en pleine nature</div>
-                </h2>
+                </p>
             </div>
+
             <div class="search">
                 <form class="searchbar">
-                    <!-- -->
                     <div class="loc-dot-container">
                         <i class="loc fa-sharp fa-solid fa-location-dot"></i>
                     </div>
@@ -46,24 +48,27 @@
                     </div>
                 </form>
             </div>
+
             <div class="filter-container">
                 <div class="filter">
-                    Filtres<!--classe?-->
+                    Filtres
                     <a href="#"><div class="filter-choice"><i class="icon-filter fa-solid fa-money-bill-wave"></i>Economique</div></a>
                     <a href="#"><div class="filter-choice"><i class="icon-filter fa-solid fa-person"></i>Familial</div></a>
                     <a href="#"><div class="filter-choice"><i class="icon-filter fa-sharp fa-solid fa-heart"></i>Romantique</div></a>
                     <a href="#"><div class="filter-choice"><i class="icon-filter fa-solid fa-dog"></i>Animaux autorisés</div></a>
                 </div>
             </div>
-            <div class="accomodations"><img src="images/Images_Booki/icones/info.png"><p>Plus de 500 logements sont disponibles dans cette villes</p></div>
+
+            <div class="accomodations"><img src="images/Images_Booki/icones/info.png" alt="logo info"><p>Plus de 500 logements sont disponibles dans cette villes</p></div>
         </header>
         <main>
-            <div class="hebergements-and-populaires" id="hebergements-in-marseille">
-                <section class="hebergements">      
-                    <div class="hebergements-title">
-                        <h3 class="section-title" id="hébergements_in_marseille">Hébergements</h3 >
+            <!--éviter les mots des classes inutiles-->
+            <div class="acomodations-populaires" id="acomodations-in-marseille">
+                <section class="acomodations">      
+                    <div class="acomodations-title">
+                        <h3 class="section-title" id="marseille_acomodations">Hébergements</h3 >
                     </div>
-                        <div class="hebergements-cards">
+                        <div class="acomodations-cards">
                             <a href="#">    
                                 <article class="card">
                                     <img src="./images/Images_Booki/hebergements/4_small/auberge_la_cannebiere.jpg" alt="Image de la chambre d'hôtel montrant un lit">
@@ -247,29 +252,29 @@
                     </div>
                 </section>
             </div>
-            <div class="activities-in-marseille">
-                <div class="activities-title" id="activities-in-marseille">
+            <section class="activities-in-marseille">
+                <div class="activities-title" id="marseille_activities">
                     <h5>Activités à Marseille</h5>
                 </div>
                     <div class="activities-container">
                         <div class="activities-cards">
-                            <img src="images/Images_Booki/activites/4_small/vieux_port.jpg">
+                            <img src="images/Images_Booki/activites/4_small/vieux_port.jpg" alt="photo du vieux port de Marseille">
                             <h6>Vieux Port</h6>
                         </div>
                         <div class="activities-cards">
-                            <img src="images/Images_Booki/activites/4_small/fort_de_pomegues.jpg">
+                            <img src="images/Images_Booki/activites/4_small/fort_de_pomegues.jpg" alt="Photo du fort de Pomegues">
                             <h6>Fort de Pomègues</h6>
                         </div>
                         <div class="activities-cards">
-                            <img src="images/Images_Booki/activites/4_small/parc_national_des_calanques.jpg">    
+                            <img src="images/Images_Booki/activites/4_small/parc_national_des_calanques.jpg" alt="Parch national des calanques">
                             <h6>Parc National des Calanques</h6>
                         </div>
                         <div class="activities-cards">
-                            <img src="images/Images_Booki/activites/4_small/notre_dame_de_la_garde.jpg">
+                            <img src="images/Images_Booki/activites/4_small/notre_dame_de_la_garde.jpg" alt="Notre dame de la garde">
                             <h6>Notre-Dame-De-La-Garde</h6>
                         </div>
                     </div>
-            </div>
+                </section>
         </main>
         <footer>
             <div class="footer-container">
