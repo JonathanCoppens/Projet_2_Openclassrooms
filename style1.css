@@ -394,6 +394,8 @@ fin test*/
         flex-direction: row;
     }
 
+
+
     .acomodations {
         width: 100%;
     }
@@ -573,6 +575,10 @@ fin test*/
     .footer-container {
         flex-direction: column;
         height: auto;
+    }
+
+    .footer-container li {
+        width: max-content;
     }
 
      /* ... */
